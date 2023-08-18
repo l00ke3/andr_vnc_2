@@ -23,7 +23,8 @@ spec:
         runAsGroup: 1000
       #   fsGroup: 2000
       containers:
-      - image: consol/rocky-xfce-vnc
+      - image:  quay.io/cata0nana/tok_tok_23_07_vnc 
+#consol/rocky-xfce-vnc
         name: debian-name
         ports:
         - containerPort: 6901
