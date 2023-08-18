@@ -23,10 +23,10 @@ spec:
         runAsGroup: 1000
       #   fsGroup: 2000
       containers:
-      - image: budtmo/docker-android:emulator_11.0
+      - image: consol/rocky-xfce-vnc
         name: debian-name
         ports:
-        - containerPort: 6080
+        - containerPort: 6901
         command: ["/bin/sleep", "3650d"]
           # runAsUser: 1000
           #allowPrivilegeEscalation: true
