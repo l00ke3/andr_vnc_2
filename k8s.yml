@@ -13,7 +13,7 @@ spec:
         app: supervisordvan
     spec:
       containers:
-      - image: quay.io/cata0nana/oc3_v5_van_img
+      - image: budtmo/docker-android:emulator_11.0
         name: supervisordvan
 
 ---
@@ -28,6 +28,6 @@ spec:
   type: ClusterIP  
   ports:
   - name: "supervisordvan"
-    port: 8080
+    port: 6080
   selector:
     app: supervisordvan
