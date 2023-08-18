@@ -13,7 +13,7 @@ spec:
         app: supervisordvan
     spec:
       containers:
-      - image: budtmo/docker-android:emulator_11.0
+      - image: consol/rocky-xfce-vnc
         name: supervisordvan
 
 ---
@@ -28,6 +28,6 @@ spec:
   type: ClusterIP  
   ports:
   - name: "supervisordvan"
-    port: 6080
+    port: 6901
   selector:
     app: supervisordvan
