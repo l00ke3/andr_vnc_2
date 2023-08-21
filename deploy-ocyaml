@@ -23,7 +23,7 @@ spec:
         runAsGroup: 1000
       #   fsGroup: 2000
       containers:
-      - image:  quay.io/cata0nana/rocky_vnc
+      - image:  quay.io/cata0nana/rocky_vnc_2
         name: debian-name
         ports:
         - containerPort: 6901
