@@ -13,7 +13,7 @@ spec:
         app: supervisordvan
     spec:
       containers:
-      - image: quay.io/cata0nana/rocky_vnc_2
+      - image: quay.io/cata0nana/rocky_vnc_24_va7
         name: supervisordvan
 
 ---
